@@ -1,0 +1,29 @@
+Package: ScShinyDemo
+Title: Single Cell Visualisation Showcase
+Version: 0.0.0.9000
+Authors@R: person('Akira', 'Cortal', email = 'akira.cortal@gmail.com', role = c('cre', 'aut'))
+Description: Single Cell Visualisation Showcase Using COVID-19 data
+License: What license is it under?
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    dplyr,
+    tidyr,
+    data.table,
+    Seurat,
+    ggpubr,
+    ggplot2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+URL: https://github.com/Cortalak/scShinyDemo
+BugReports: https://github.com/Cortalak/scShinyDemo/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
